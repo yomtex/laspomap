@@ -250,14 +250,14 @@ SingleValueDropDownController  route_name = SingleValueDropDownController ();
     );
   }
   getRout()async{
-  //   Map mapResponse = {};
-  //   List transactions=[];
-  //   var url = Uri.parse(
-  //       "http://127.0.0.1:8000/api/all-route");
-  //   http.Response response = await http.get(url, headers: {
-  //     'Accept': 'application/json',
-  //   });
-  //   var data = json.decode(response.body);
-  //   //print(data);
+    Map mapResponse = {};
+    List transactions=[];
+    var url = Uri.parse(
+        "http://127.0.0.1:8000/api/all-route");
+    http.Response response = await http.get(url, headers: {
+      'Accept': 'application/json',
+    });
+    var data = json.decode(response.body);
+    //print(data);
   }
 }
